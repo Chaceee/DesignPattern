@@ -23,6 +23,7 @@ class Child{
     public void wakeup() {
         for(Observer o : observers) {
             o.onWakeupAction(wakeupEvent);
+            //test
         }
     }
 }
